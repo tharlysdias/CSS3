@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        h1::before {
+            content: "Meu ";
+        }
+
+        a.glossary::before {
+            content: "" url("paleta.png");
+        }
+
+        p::after {
+            content: "" url("paleta.png");
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            background: url("fundo.png") ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+
+    <a href="" class="glossary">Link</a>
+
+    <p class="fundo">
+        Paragrafo 2 <br>
+        Paragrafo 2 <br>
+        Paragrafo 2 <br>
+        Paragrafo 2 <br>
+        Paragrafo 2 <br>
+    </p>
+
+    <div></div>
+</body>
+</html>
